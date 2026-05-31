@@ -8,6 +8,13 @@ Animate a local reference image using the motion and audio from a local referenc
 * The quality of the generated video deteriorates dramatically as the video length increases - for best results cut up the video into smaller pieces of 15-20 seconds in length and after generation coalesce them together using e.g. `ffmpeg`.
 * If the video has dramatic compositional changes, you will need to separate those and use reference images that align with those compisitions, e.g. if the starting sequence is seated-closeup, and the next sequence is walking side-view, they will need a separate reference image for best results.
 
+**DEMO:**
+
+
+https://github.com/user-attachments/assets/1fddcba8-e93c-481a-9c25-c1af51fc4a2d
+
+
+
 ## Setup
 
 ```bash
